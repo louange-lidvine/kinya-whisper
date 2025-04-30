@@ -14,10 +14,16 @@ It listens to spoken questions, converts them into text, understands the meaning
 
 ---
 
-## 🛠️ How to Run
+## 📋 Requirements
 
-1. **Install Dependencies**
+Make sure the following are installed on your machine:
 
-Make sure you have Python 3 installed, then install required libraries:
+- **Python 3.7+** — Required to run the project  
+- **[torch](https://pytorch.org/)** — Used by Whisper for transcription  
+- **[openai-whisper](https://github.com/openai/whisper)** — For converting speech to text  
+- **[gTTS](https://pypi.org/project/gTTS/)** — For converting text answers to speech in Kinyarwanda  
+- **[ffmpeg](https://ffmpeg.org/)** — Required by Whisper to process audio files
+
+### 📦 Install Python dependencies:
 ```bash
 pip install torch openai-whisper gTTS
