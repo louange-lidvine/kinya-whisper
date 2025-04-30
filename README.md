@@ -1,20 +1,23 @@
-Kinyarwanda Voice Interaction System
-This application is a lightweight voice assistant designed for Intelligent Robotics coursework, capable of understanding and responding to spoken Kinyarwanda.
+# 🎙️ Kinyarwanda Voice Assistant
 
-Running the Application
-Make sure all required Python libraries are installed.
+A **mini voice assistant** built for **Intelligent Robotics coursework**, designed to understand and respond to **Kinyarwanda** speech.  
+It listens to spoken questions, converts them into text, understands the meaning, and speaks back a thoughtful response — all in Kinyarwanda!
 
-Add your Kinyarwanda voice recordings to the audio/ directory.
+---
 
-Execute the main script to start processing.
+## 🚀 Features
 
-You’ll find both the transcribed text and audio replies in the outputs/ folder.
+- 🎧 **Speech Recognition** — Understands Kinyarwanda audio input  
+- 🤖 **Natural Language Understanding** — Interprets your spoken questions  
+- 🔊 **Voice Response** — Replies using natural-sounding speech  
+- 📁 **Logging** — Stores both recognized text and generated answers in the `outputs/` folder
 
-Dependencies
-Python 3
+---
 
-OpenAI Whisper
+## 🛠️ How to Run
 
-gTTS (Google Text-to-Speech)
+1. **Install Dependencies**
 
-PyTorch
+Make sure you have Python 3 installed, then install required libraries:
+```bash
+pip install torch openai-whisper gTTS
